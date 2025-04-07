@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Depths.sln"
+    "dotnet.defaultSolution": "Wormin.sln"
 }

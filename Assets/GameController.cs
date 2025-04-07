@@ -258,4 +258,12 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    bool audioOff = false;
+    public void ToggleSound()
+    {
+        audioOff = !audioOff;
+
+        AudioListener.pause = audioOff;
+    }
 }
